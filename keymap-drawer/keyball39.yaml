@@ -327,3 +327,15 @@ combos:
 - p: [12, 17]
   k: {t: '$$mdi:keyboard-return$$', type: enter}
   l: [QWRT]
+- p: [13, 23]
+  k: $$mdi:apple-keyboard-control$$
+  l: [QWRT, HOME]
+- p: [12, 22]
+  k: LGUI
+  l: [QWRT, HOME]
+- p: [22, 23]
+  k: Ctl+LGUI
+  l: [QWRT, HOME]
+- p: [21, 22]
+  k: Sft+LGUI
+  l: [QWRT, HOME]
