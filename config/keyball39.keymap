@@ -35,20 +35,6 @@
     combos {
         compatible = "zmk,combos";
 
-        combo_space {
-            timeout-ms = <30>;
-            key-positions = <13 16>;
-            layers = <DEFAULT>;
-            bindings = <&kp SPACE>;
-        };
-
-        combo_enter {
-            timeout-ms = <30>;
-            key-positions = <12 17>;
-            layers = <DEFAULT>;
-            bindings = <&kp ENTER>;
-        };
-
         combo_left_ctrl {
             timeout-ms = <30>;
             key-positions = <13 23>;
@@ -77,6 +63,55 @@
             bindings = <&kp LS(LGUI)>;
         };
 
+        combo_to_homerow {
+            timeout-ms = <30>;
+            key-positions = <12 13>;
+            layers = <DEFAULT HOMEROW>;
+            bindings = <&to HOMEROW>;
+        };
+
+        combo_to_default {
+            timeout-ms = <30>;
+            key-positions = <16 17>;
+            layers = <DEFAULT HOMEROW>;
+            bindings = <&to DEFAULT>;
+        };
+
+        combo_delete {
+            timeout-ms = <30>;
+            key-positions = <6 7>;
+            layers = <DEFAULT HOMEROW>;
+            bindings = <&kp DELETE>;
+        };
+
+        combo_tab {
+            timeout-ms = <30>;
+            key-positions = <7 8>;
+            layers = <DEFAULT HOMEROW>;
+            bindings = <&kp TAB>;
+        };
+
+        combo_enter_right {
+            timeout-ms = <30>;
+            key-positions = <17 18>;
+            layers = <DEFAULT HOMEROW>;
+            bindings = <&kp ENTER>;
+        };
+
+        combo_to_scroll {
+            timeout-ms = <30>;
+            key-positions = <2 3>;
+            layers = <DEFAULT HOMEROW>;
+            bindings = <&to SCROLL>;
+        };
+
+        combo_to_snipe {
+            timeout-ms = <30>;
+            key-positions = <1 2>;
+            layers = <DEFAULT HOMEROW>;
+            bindings = <&to SNIPE>;
+        };
+
     };
 
     behaviors {
@@ -87,7 +122,7 @@
             tapping-term-ms = <220>;
             flavor = "tap-preferred";
             quick-tap-ms = <150>;
-            bindings = <&mo>, <&to>;
+            bindings = <&mo>, <&kp>;
         };
 
         default_sym: default_sym {
@@ -97,7 +132,7 @@
             tapping-term-ms = <220>;
             flavor = "tap-preferred";
             quick-tap-ms = <150>;
-            bindings = <&mo>, <&to>;
+            bindings = <&mo>, <&kp>;
         };
 
         cmqus: comma_question {
@@ -137,7 +172,7 @@
 &kp Q      &kp W         &kp E     &kp R         &kp T                                    &kp Y            &kp U  &kp I      &kp O    &kp P
 &kp A      &kp S         &kp D     &kp F         &kp G                                    &kp H            &kp J  &kp K      &kp L    &kp SEMI
 &kp Z      &kp X         &kp C     &kp V         &kp B                                    &kp N            &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LCTRL  &kp LEFT_WIN  &kp LALT  &lt 6 ESCAPE  &home_num NUM HOMEROW  &lt 5 LA(GRAVE)  &kp ENTER  &default_sym SYM DEFAULT                  &kp RSHFT
+&kp LCTRL  &kp LEFT_WIN  &kp LALT  &lt 6 ESCAPE  &home_num NUM ESCAPE   &lt 5 LA(GRAVE)  &kp ENTER  &default_sym SYM SPACE                    &kp RSHFT
             >;
         };
 
