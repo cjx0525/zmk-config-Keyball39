@@ -34,51 +34,12 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - LEFT WIN
   - $$mdi:apple-keyboard-option$$
-  - {t: HOME, h: NUM}
+  - {t: '$$mdi:keyboard-esc$$', h: SNIPE}
+  - '&home_num'
   - {t: Alt+`, h: SCROLL, s: Alt+~}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:backspace$$', h: SYM}
   - $$mdi:apple-keyboard-shift$$
-  HOME:
-  - Q
-  - W
-  - E
-  - R
-  - T
-  - Y
-  - U
-  - I
-  - O
-  - P
-  - {t: A, h: LEFT ALT}
-  - {t: S, h: LEFT SHIFT}
-  - {t: D, h: LEFT GUI}
-  - {t: F, h: LEFT CTRL}
-  - G
-  - H
-  - {t: J, h: RIGHT CTRL}
-  - {t: K, h: RIGHT GUI}
-  - {t: L, h: RIGHT SHIFT}
-  - {t: ;, h: RIGHT ALT, s: ':'}
-  - Z
-  - X
-  - C
-  - V
-  - B
-  - N
-  - M
-  - {t: ',', s: <}
-  - {t: ., s: '>'}
-  - {t: /, s: '?'}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   NUM:
   - '1'
   - '2'
@@ -234,7 +195,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - FUN
@@ -319,3 +280,50 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  HOME:
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - {t: A, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: S, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: D, h: LGUI}
+  - {t: F, h: '$$mdi:apple-keyboard-control$$'}
+  - G
+  - H
+  - {t: J, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: K, h: RGUI}
+  - {t: L, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: ;, h: '$$mdi:apple-keyboard-option$$', s: ':'}
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - {t: ',', s: <}
+  - {t: ., s: '>'}
+  - {t: /, s: '?'}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+combos:
+- p: [13, 16]
+  k: $$mdi:keyboard-space$$
+  l: [QWRT]
+- p: [12, 17]
+  k: {t: '$$mdi:keyboard-return$$', type: enter}
+  l: [QWRT]
