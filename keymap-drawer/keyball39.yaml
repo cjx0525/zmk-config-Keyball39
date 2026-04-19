@@ -38,7 +38,7 @@ layers:
   - {t: HOME, h: NUM}
   - {t: Alt+`, h: SCROLL, s: Alt+~}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:backspace$$', h: SYM}
+  - {t: QWRT, h: SYM}
   - $$mdi:apple-keyboard-shift$$
   NUM:
   - '1'
