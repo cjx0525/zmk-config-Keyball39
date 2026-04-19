@@ -321,12 +321,6 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
-- p: [13, 16]
-  k: $$mdi:keyboard-space$$
-  l: [QWRT]
-- p: [12, 17]
-  k: {t: '$$mdi:keyboard-return$$', type: enter}
-  l: [QWRT]
 - p: [13, 23]
   k: $$mdi:apple-keyboard-control$$
   l: [QWRT, HOME]
@@ -338,4 +332,25 @@ combos:
   l: [QWRT, HOME]
 - p: [21, 22]
   k: Sft+LGUI
+  l: [QWRT, HOME]
+- p: [12, 13]
+  k: {t: HOME, h: toggle}
+  l: [QWRT, HOME]
+- p: [16, 17]
+  k: {t: QWRT, h: toggle}
+  l: [QWRT, HOME]
+- p: [6, 7]
+  k: $$mdi:backspace-reverse-outline$$
+  l: [QWRT, HOME]
+- p: [7, 8]
+  k: $$mdi:keyboard-tab$$
+  l: [QWRT, HOME]
+- p: [17, 18]
+  k: {t: '$$mdi:keyboard-return$$', type: enter}
+  l: [QWRT, HOME]
+- p: [2, 3]
+  k: {t: SCROLL, h: toggle}
+  l: [QWRT, HOME]
+- p: [1, 2]
+  k: {t: SNIPE, h: toggle}
   l: [QWRT, HOME]
