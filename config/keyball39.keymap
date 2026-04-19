@@ -59,7 +59,7 @@
             tapping-term-ms = <220>;
             flavor = "tap-preferred";
             quick-tap-ms = <150>;
-            bindings = <&mo NUM>, <&to HOMEROW>;
+            bindings = <&mo NUM &to HOMEROW>;
         };
 
         cmqus: comma_question {
