@@ -31,6 +31,24 @@
 / {
     // custom shift using mod-morph 
 
+    combos {
+        compatible = "zmk,combos";
+
+        combo_space {
+            timeout-ms = <30>;
+            key-positions = <13 16>;
+            layers = <DEFAULT>;
+            bindings = <&kp SPACE>;
+        };
+
+        combo_enter {
+            timeout-ms = <30>;
+            key-positions = <12 17>;
+            layers = <DEFAULT>;
+            bindings = <&kp ENTER>;
+        };
+    };
+
     behaviors {
         cmqus: comma_question {
             compatible = "zmk,behavior-mod-morph";
