@@ -86,31 +86,31 @@ layers:
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - Home
+  - HOME
   - PgDn
   - PgUp
-  - End
+  - END
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - Alt
-  - Shft
-  - GUI
-  - Ctrl
-  - Boot
+  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-shift$$
+  - LGUI
+  - $$mdi:apple-keyboard-control$$
+  - $$mdi:progress-download$$
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
-  - Ret
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - Cmd+Shft+[
-  - Cmd+Shft+]
+  - {t: 'Gui+Sft+[', s: 'Gui+Sft+{'}
+  - {t: 'Gui+Sft+]', s: 'Gui+Sft+}'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - Caps
-  - BkSp
+  - $$mdi:apple-keyboard-caps$$
+  - {t: '$$mdi:backspace$$', type: backspace}
   - F18
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - Tab
+  - $$mdi:keyboard-tab$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
