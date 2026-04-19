@@ -323,34 +323,47 @@ layers:
 combos:
 - p: [13, 23]
   k: $$mdi:apple-keyboard-control$$
-  l: [QWRT, HOME]
 - p: [12, 22]
   k: LGUI
-  l: [QWRT, HOME]
 - p: [22, 23]
   k: Ctl+LGUI
-  l: [QWRT, HOME]
 - p: [21, 22]
   k: Sft+LGUI
-  l: [QWRT, HOME]
 - p: [12, 13]
   k: {t: HOME, h: toggle}
-  l: [QWRT, HOME]
-- p: [16, 17]
-  k: {t: QWRT, h: toggle}
-  l: [QWRT, HOME]
 - p: [6, 7]
-  k: $$mdi:backspace-reverse-outline$$
-  l: [QWRT, HOME]
+  k: {t: '$$mdi:backspace$$', type: backspace}
 - p: [7, 8]
   k: $$mdi:keyboard-tab$$
-  l: [QWRT, HOME]
+- p: [8, 9]
+  k: $$mdi:backspace-reverse-outline$$
+- p: [16, 17]
+  k: $$mdi:keyboard-space$$
 - p: [17, 18]
+  k: $$mdi:keyboard-esc$$
+- p: [18, 19]
   k: {t: '$$mdi:keyboard-return$$', type: enter}
-  l: [QWRT, HOME]
+- p: [16, 26]
+  k: $$mdi:apple-keyboard-control$$
+- p: [17, 27]
+  k: RGUI
+- p: [18, 28]
+  k: $$mdi:apple-keyboard-shift$$
+- p: [19, 29]
+  k: $$mdi:apple-keyboard-option$$
+- p: [6, 16]
+  k: F18
+- p: [7, 17]
+  k: F19
+- p: [8, 18]
+  k: F20
 - p: [2, 3]
   k: {t: SCROLL, h: toggle}
-  l: [QWRT, HOME]
 - p: [1, 2]
   k: {t: SNIPE, h: toggle}
-  l: [QWRT, HOME]
+- p: [11, 21]
+  k: $$mdi:apple-keyboard-shift$$
+- p: [10, 20]
+  k: $$mdi:apple-keyboard-option$$
+- p: [11, 12]
+  k: {t: QWRT, h: toggle}
